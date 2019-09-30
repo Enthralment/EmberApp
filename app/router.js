@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('fromstring');
+  this.route('fromfields');
 });
 
 export default Router;
